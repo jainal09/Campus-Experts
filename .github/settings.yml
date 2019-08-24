@@ -1,0 +1,54 @@
+repository:
+  # See https://developer.github.com/v3/repos/#edit for all available settings.
+
+  # A URL with more information about the repository
+  homepage: http://githubcampus.expert
+
+  description: GitHub Campus Experts training. To get support, visit https://spectrum.chat/githubeducation.
+
+  # Either `true` to make the repository private, or `false` to make it public.
+  private: true
+
+  # Either `true` to enable issues for this repository, `false` to disable them.
+  has_issues: false
+
+  # Either `true` to enable the wiki for this repository, `false` to disable it.
+  has_wiki: false
+
+  # Either `true` to enable downloads for this repository, `false` to disable them.
+  has_downloads: false
+
+  has_projects: false
+
+  # Updates the default branch for this repository.
+  default_branch: master
+
+  # Either `true` to allow squash-merging pull requests, or `false` to prevent
+  # squash-merging.
+  allow_squash_merge: true
+
+  # Either `true` to allow merging pull requests with a merge commit, or `false`
+  # to prevent merging pull requests with merge commits.
+  allow_merge_commit: true
+
+  # Either `true` to allow rebase-merging pull requests, or `false` to prevent
+  # rebase-merging.
+  allow_rebase_merge: true
+
+# Labels: define labels for Issues and Pull Requests
+labels:
+  - name: help
+    color: fbca04
+  - name: MODULE-1
+    color: D71E3C
+  - name: MODULE-2
+    color: D71E3C
+  - name: MODULE-3
+    color: D71E3C
+  - name: MODULE-4
+    color: D71E3C
+  - name: MODULE-5
+    color: D71E3C
+  - name: MODULE-6
+  - name: submission
+    color: 00CCCC
